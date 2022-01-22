@@ -89,9 +89,6 @@ body {
 }
 
 
-/*----------Body Content--------*/
-
-
 /*----------section 1--------*/
 
 .section1 {
@@ -509,7 +506,6 @@ body {
 
 .footer_logo p {
     margin-top: 20px;
-    /* text-align: justify; */
     font-size: 14px;
     width: 80%;
 }
@@ -570,12 +566,3 @@ body {
 .footer_reserve_part {
     background-color: #8b00008c;
 }
-
-
-/*----------section 2--------*/
-
-
-/*----------section 2--------*/
-
-
-/*----------section 2--------*/
