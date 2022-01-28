@@ -158,15 +158,6 @@
         padding: 0 31px 0 125px;
         line-height: 2;
     }
-    /*     
-    .metadata .meta {
-        display: flex;
-        flex-wrap: nowrap;
-    }
-    
-    .metadata .meta .label {
-        flex: 1;
-    } */
     
     .metadata .meta.blood_group .value {
         text-transform: uppercase;
@@ -175,6 +166,7 @@
     .metadata .meta.district .value {
         text-transform: capitalize;
     }
+
     /*----------Footer--------*/
     
     .footer {
@@ -221,6 +213,7 @@
     .whatsapp a {
         background-color: #25D366;
     }
+
     /*----------Footer Line--------*/
     
     .line {
@@ -228,6 +221,7 @@
         border: 1px solid white;
         margin-top: 30px;
     }
+
     /*----------footer_last--------*/
     
     .footer_last_left,
@@ -243,10 +237,10 @@
     
     .footer_logo p {
         margin-top: 20px;
-        /* text-align: justify; */
         font-size: 14px;
         width: 80%;
     }
+
     /*----------Quick Links--------*/
     
     .quick_links_line {
@@ -274,6 +268,7 @@
         font-size: 18px;
         font-weight: 600;
     }
+
     /*----------Gallery--------*/
     
     .gallery {
@@ -285,6 +280,7 @@
         width: 95px;
         margin-bottom: 5px;
     }
+    
     /*----------footer_reserve_part--------*/
     
     .footer_reserve_part p {
