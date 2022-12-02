@@ -84,8 +84,8 @@
                                                                 Body Content
     ----------------------------------------------------------------------------------------------->
     <div class="container">
-        <h3>Fading Modal Example</h3>
-        <p>Click on the button to open the modal.</p>
+        <h3>Need Blood??</h3>
+        <p>Click on the button to create blood request post.</p>
 
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
           Create a new post
@@ -106,7 +106,7 @@
                 <!-- Modal body -->
                 <div class="modal-body">
                     <div class="registration_form">
-                        <form action="{% url 'UserProfile:registrations'%}" method="post" class="row g-3">
+                        <form action="#" class="row g-3">
                             <div class="col-md-6">
                                 <select name="bloodGroup" class="form-select" aria-label="Default select example">
                                     <option value="">Select Blood Group</option>
@@ -121,7 +121,7 @@
                                 </select>
                             </div>
                             <div class="col-md-6">
-                                <input type="number" name="quantity" value="1" placeholder="Quantity (Bag/s)" class="form-control" id="inputquantity" />
+                                <input type="number" name="quantity" value="" placeholder="Quantity (Bag/s)" class="form-control" id="inputquantity" />
                             </div>
                             <div class="col-md-6">
                                 <input type="text" name="location" placeholder="Location" class="form-control" id="inputlocation" />

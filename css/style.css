@@ -547,3 +547,21 @@ body {
 .footer_reserve_part {
     background-color: #8b00008c;
 }
+
+/*-------- Mobile Responsive ---------*/
+
+@media only screen and (max-width: 375px) {
+    .phone {
+        margin-left: 8px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .container-fluid {
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+    .reg-main{
+        display: none;
+    }
+}
